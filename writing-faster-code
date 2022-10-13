@@ -1,0 +1,38 @@
+My notes on how to code faster during Competitive Programming in C++ :
+
+Snippets:
+Snippet is a programming term for a small region of re-usable source Code. A lot of modern text editors like Sublime provide you a functionality to automatically write a predefined snippet by just writing a keyword. 
+One can speed up their implementation by using Snippets. So if you need to do a BFS or DFS(or any other code), you just need to press ‘Keyword+Tab’ to get it’s code.
+Well, how to add a snippet? Adding a snippet in Sublime Text is pretty straightforward. Just navigate to Tools>Developers>New Snippet. 
+
+    <snippet>
+    <content><![CDATA[
+
+    // Type your code here
+
+    ]]></content>
+    <tabTrigger>ENTER KEYWORD HERE</tabTrigger>
+    </snippet>
+Use this as your base template for a snippet and paste the code that you want to use in your Snippet by replacing the comment and trigger Keyword.
+
+Macros:
+They are a way to assign shorter notations to things that are usually longer to write.
+They can be easily written using #define 
+
+For Example: 
+Before using Macros:
+
+  long long int a;
+  vector<long long int> v;
+  map<long long int, long long int> mp;
+
+After using Macros:
+  #define ll long long int
+  
+  ll a;
+  vector<ll> v;
+  map<ll, ll> mp; 
+
+Using these saves you a ton of time! 
+There are many available code snippets available online on various platforms too.
+
